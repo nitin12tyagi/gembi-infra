@@ -1,8 +1,29 @@
+# Secrets
 .env
-*.key
+.env.*
 *.pem
+*.key
 *.crt
-secrets/
+*.p12
+
+# VPN
+wg0.conf
+*.conf
+
+# Data
 data/
 backup/
+mongodb/
+redis/
+elasticsearch/
+minio/
+
+# Logs
 *.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
